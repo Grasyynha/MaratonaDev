@@ -1,0 +1,27 @@
+{
+  "name": "maratonadev",
+  "version": "1.0.0",
+  "description": "Projeto Front End do MaratonaDev Nesse projeto inicial, está usando as tecnologias básicas, html, css e Javascript. O projeto a ser criado é um site de doação de sangue.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grasyynha/maratonadev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grasyynha/maratonadev/issues"
+  },
+  "homepage": "https://github.com/Grasyynha/maratonadev#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
+  }
+}
